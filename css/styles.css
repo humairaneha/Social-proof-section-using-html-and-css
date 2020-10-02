@@ -118,8 +118,8 @@ p.review-p{
   }
   .intro-column{
     text-align: center;
-    padding: 10%;
-    line-height:2;
+    margin:auto;
+    
   }
   .rating-column{text-align:center;
   padding: 5%;}
