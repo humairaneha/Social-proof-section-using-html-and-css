@@ -98,7 +98,7 @@ p.review-p{
   color:  hsl(333, 80%, 67%);
 }
 /* for mobile */
-@media(max-width:800px)
+@media(max-width:500px)
 {
   body{
     text-align: center;}
