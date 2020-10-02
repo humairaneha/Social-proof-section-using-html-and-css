@@ -101,7 +101,8 @@ p.review-p{
 @media(max-width:500px)
 {
   body{
-    text-align: center;}
+    text-align: center;
+  margin:auto;}
   .r-1{
     position: static;
 
