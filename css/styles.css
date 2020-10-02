@@ -124,7 +124,7 @@ p.review-p{
   padding: 5%;}
   .rating{
      height: 60px;
-     width:250px;
+     width:300px;
      text-align: center;
   }
   span{
@@ -132,7 +132,7 @@ p.review-p{
   }
   .review-row{
     text-align:center;
-    padding: 11%;
+/*     padding: 11%; */
     
   }
   .reviews{
