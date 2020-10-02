@@ -140,7 +140,7 @@ p.review-p{
     height:200px;
     text-align: left;
   }
-
+  .rating-column,.review-column{text-align:center;}
 .review-1-img,.review-2-img,.review-3-img{
   padding-right: 0;
   float: left;
