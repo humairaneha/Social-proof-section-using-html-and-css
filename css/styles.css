@@ -1,0 +1,144 @@
+body{
+  background-image: url("../images/bg-pattern-bottom-desktop.svg"),url("../images/bg-pattern-top-desktop.svg");
+  background-size: cover ,auto;
+  background-repeat: no-repeat,no-repeat;
+  background-color: hsl(0, 0%, 100%);
+  margin: 8%;
+  margin-top: 7%;
+  margin-bottom: 0;
+  font-family: Spartan;
+}
+
+/* intro rating */
+h1{
+  color:  hsl(300, 43%, 22%);
+
+  font-weight: 700;
+}
+.rating{
+  background-color: hsl(300, 24%, 96%);
+  margin:5%;
+  height:45px;
+  text-align: center;
+  border-radius: 8px;
+}
+.intro-column{
+  padding-right:200px;
+}
+.r-1,.r-2,.r-3{position: relative;}
+
+.r-1{
+  right:50px;
+}
+.r-2{
+  right:10px;
+}
+.r-3{
+left:40px;
+}
+
+.rating-column{
+  padding:0 8% 5%;
+}
+.intro-column p {
+
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  font-size: 14px;
+
+
+}
+.rating-column p {
+
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 13px;
+  padding-top:3%;
+}
+
+/* review */
+.review-row{
+  padding:0 20px;
+  font-size: 13px;
+  font-weight: 500;
+
+
+}
+.review-1-img,.review-2-img,.review-3-img{
+  border-radius: 100px;
+  width:13%;
+  float: left;
+  margin-right: 5%;
+
+}
+.review-1,.review-2,.review-3{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 9px;
+  padding: 7%;
+  height:210px;
+  width:330px;
+
+
+
+}
+.review-2{
+  margin-top:20px;
+}
+.review-3{
+  margin-top:40px;
+}
+h6{
+  color:  hsl(0, 0%, 100%);
+}
+.review-column p{
+  color: hsl(0, 0%, 100%);
+
+}
+p.review-p{
+  color:  hsl(333, 80%, 67%);
+}
+/* for mobile */
+@media(max-width:800px)
+{
+  body{
+    text-align: center;}
+  .r-1{
+    position: static;
+
+  }
+  .r-2{
+    position:  static;
+
+  }
+  .r-3{
+    position: static;
+
+  }
+  .intro-column{
+    text-align: center;
+    padding: 8%;
+  }
+  .rating-column{text-align:center;
+  padding: 3%;}
+  .rating{
+     height: 60px;
+     width:350px;
+     text-align: center;
+  }
+  span{
+    display: block;
+  }
+  .review-row{
+    text-align: left;
+    padding: 11%;
+  }
+  .reviews{
+    width 350px;
+  }
+
+.review-1-img,.review-2-img,.review-3-img{
+  padding-right: 0;
+  float: left;
+}
+
+}
