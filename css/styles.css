@@ -134,7 +134,8 @@ p.review-p{
     
   }
   .reviews{
-    width 330px;
+    width 300px;
+    height:200px;
     text-align: left;
   }
 
